@@ -9,7 +9,7 @@ public class BasedPatientsController : ControllerBase
         string message = "The requested resource could not be found.";
 
         if (id.HasValue)
-            message = $"Patient with ID {id.Value} could not be found.";
+            message = $"Patient with ID {id.Value} could not be found. Please verify the ID or contact support.";
 
         return Problem(
                 type: "https://datatracker.ietf.org/doc/html/rfc9110#name-404-not-found",

@@ -31,7 +31,7 @@ GET /api/Patients/{id}
   "type": "https://tools.ietf.org/html/rfc9110#section-15.5.5",
   "title": "Resource Not Found",
   "status": 404,
-  "detail": "Patient with ID 999 could not be found.",
+  "detail": "Patient with ID 999 could not be found. Please verify the ID or contact support.",
   "instance": "/api/patients/999"
 }
 ```

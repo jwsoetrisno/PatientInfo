@@ -48,7 +48,6 @@ X-API-Key: NHS2026
 ```json
 {
   "status": 401,
-  "error": "Unauthorized",
   "message": "Unauthorized: Provide a valid API Key."
 }
 

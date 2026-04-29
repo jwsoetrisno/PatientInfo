@@ -11,7 +11,7 @@ across Domain, Application, Infrastructure, and API layers, and structured error
 
 - Get Patient Summary (Get By ID)
 - Accepts a patient ID as input
-- Returns the patient's details if found
+- Returns the patient's details if found. Patient's details include Id, NHS Number, Name, Date of Birth and GP Practice
 - Returns an appropriate response if the patient is not found
 - No database used
 - Sample data available 6 records, with Id 1 to 6
@@ -21,7 +21,7 @@ across Domain, Application, Infrastructure, and API layers, and structured error
 ### 📡 API Endpoints
 **Get patient summary by patient ID**
 ```
-GET /api/patients/{id}
+GET /api/Patients/{id}
 ```
 
 ### ❗Error Handling Example
